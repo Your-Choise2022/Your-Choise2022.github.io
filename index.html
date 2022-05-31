@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.98.0">
+    <title>Your Choise</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/carousel/">
+    <!-- Fontes Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    
+
+    
+
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+      @media (max-width: 992px){
+          #caixa-1{
+            width: 100%;
+            height: 100%;
+          }
+          #caixa-2{
+            width: 100%;
+            height: 200px;
+          }
+          #menu-nav{
+            text-align: center;
+          }
+      }
+
+      @media (min-width:992px){
+          #caixa-1{
+            width: 50%;
+            height: 100%;
+          }
+          #caixa-2{
+            width: 50%;
+            height: 100%;
+          }
+          #menu-nav{
+            text-align: right;
+          }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+      a{
+
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body style="padding-top: 0">
+    
+
+
+    <center>
+    <div class="container-fluid" style="height:500px;width: 100%; background-color: green;padding: 0">
+
+      <div style="padding-right:20px;position: absolute; top: 4%; width: 100%; height: auto;  " id="menu-nav">
+        <a style="margin-left: 20px"> Inicio </a>
+        <a style="margin-left: 20px"> Produtos </a>
+        <a style="margin-left: 20px"> Contato </a>
+      </div>
+
+      <div style="background-color: #a1c0d5;display: block; float: left; display: flex;align-items: center;justify-content: center;" id="caixa-1">
+                    
+            <img src="image/logo.png.png" style=" width: auto; height: 220px" >
+          
+          
+      </div>
+      <div style="background-color: #fda143; float: left; display: flex;align-items: center;justify-content: center;" id="caixa-2">
+        <div id="texto" style="height: auto; width: 90%; padding-left: 20px; text-align: left; font-family: 'Bebas Neue', cursive;">
+        <h1>Seja bem-vindo</h1>
+        <p>Your - Choise, sua melhor escolha na hora de se alimentar bem!</p>
+        </div>
+      </div>
+
+
+    </div>
+    </center>
+  
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing" style="display: flow-root;">
+    <CENTER>
+    <h1 style="font-family: 'Bebas Neue', cursive; color: #77779b;padding:40px">PRODUTOS / SERVIÇOS</h1>
+    </CENTER>
+    <!-- Three columns of text below the carousel -->
+    <div class="row" style="">
+      <div class="col-lg-4">
+        <center>
+        <div style="height: 140px; width: 140px; background-image: url('image/congelada.jpg'); background-position: center; background-size:cover; background-repeat: no-repeat; border-radius: 100%"></div>
+        </center>
+
+        <h2 class="fw-normal" style="margin-top:10px">Comidas Congeladas</h2>
+        <p>Veja nosso cardápio e monte seu prato do seu jeitinho, lembrando que temos opções para <strong>vegetarianos e veganos também.</strong></p>
+        
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <center>
+        <div style="height: 140px; width: 140px; background-image: url('image/sucos.jpg'); background-position: center; background-size:cover; background-repeat: no-repeat; border-radius: 100%"></div>
+        </center>
+
+        <h2 class="fw-normal" style="margin-top:10px">Sucos Naturais</h2>
+        <p>Suco natural já pronto e congelado, para pessoas que precisam de praticidade, mas não abrem a mão de uma refeição completa, também em forma de polpa para que só acrescentem a água</p>
+        
+      </div><!-- /.col-lg-4 -->
+
+      <div class="col-lg-4">
+        <center>
+        <div style="height: 140px; width: 140px; background-image: url('image/sobremesa.jpg'); background-position: center; background-size:cover; background-repeat: no-repeat; border-radius: 100%"></div>
+        </center>
+
+        <h2 class="fw-normal" style="margin-top:10px">Sobremesas</h2>
+        <p>Ninguém está isento da vontade de um docinho após a refeição né? Por isso também temos sobremesas no mesmo estilo, para quem precisa de praticidade no dia a dia é claro sem deixar de ser gostoso e saudável</p>
+        
+      </div><!-- /.col-lg-4 -->
+      
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7" >
+        <h1 class="fw-normal">Sucos Naturais</h1>
+        <center>
+        
+        <div class="row" style=" width: 100%;">
+          <div class="col-lg-4 col-6" style="height: 300px;  padding: 15px">
+            <div style="height: 100%;  border: 1px solid #dddddd">
+              <div style="height: 70%;  background-image: url(image/sucodelaranja.jpg); background-size: cover; background-position: center;"></div>
+              <div style="height: 18%; display: flex;align-items: center;justify-content: center;">
+                Suco de Laranja
+              </div>
+              <a href="https://api.whatsapp.com/send?phone=5511971841827&text=Ol%C3%A1%2C%20vim%20pelo%20site%20do%20Your%20Choise%2C%20e%20gostaria%20de%20pedir%20um%20suco%20de%20Laranja!">
+              <div style="height: 12%; background-color: green; display: flex;align-items: center;justify-content: center; color:#fff; padding: 10px; font-size: 12px">
+                PEDIR VIA WHATSAPP
+              </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-6" style="height: 300px;  padding: 15px">
+            <div style="height: 100%;  border: 1px solid #dddddd">
+              <div style="height: 70%;  background-image: url(image/sucodemorango.png); background-size: cover; background-position: center;"></div>
+              <div style="height: 18%; display: flex;align-items: center;justify-content: center;">
+                Suco de Morango
+              </div>
+              <a href="https://api.whatsapp.com/send?phone=5511971841827&text=Ol%C3%A1%2C%20vim%20pelo%20site%20do%20Your%20Choise%2C%20e%20gostaria%20de%20pedir%20um%20suco%20de%20Morango!">
+              <div style="height: 12%; background-color: green; display: flex;align-items: center;justify-content: center; color:#fff; padding: 10px; font-size: 12px">
+                PEDIR VIA WHATSAPP
+              </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-6" style="height: 300px;  padding: 15px">
+            <div style="height: 100%;  border: 1px solid #dddddd">
+              <div style="height: 70%;  background-image: url(image/sucodemanga.jpg); background-size: cover; background-position: center;"></div>
+              <div style="height: 18%; display: flex;align-items: center;justify-content: center;">
+                Suco de Manga
+              </div>
+              <a href="https://api.whatsapp.com/send?phone=5511971841827&text=Ol%C3%A1%2C%20vim%20pelo%20site%20do%20Your%20Choise%2C%20e%20gostaria%20de%20pedir%20um%20suco%20de%20Manga!">
+              <div style="height: 12%; background-color: green; display: flex;align-items: center;justify-content: center; color:#fff; padding: 10px; font-size: 12px">
+                PEDIR VIA WHATSAPP
+              </div>
+              </a>
+            </div>
+          </div></div>
+        <br>
+        <p><a class="btn btn-secondary container" href="#" style="background-color: green; width: 40%; margin-top: -70px;">Mais opções</a></p>
+        </center>
+        
+
+         
+      </div>
+      <div class="col-md-5 container">
+        <div class="container" style="height: 450px; width: auto; background-image: url('image/sucos.jpg'); background-position: center; background-size:cover; background-repeat: no-repeat;"> </div>
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h1 class="fw-normal">Comidas Congeladas</h1>
+        <center>
+        <div class="row" style=" width: 100%;">
+          <div class="col-lg-4 col-6" style="height: 300px;  padding: 15px">
+            <div style="height: 100%;  border: 1px solid #dddddd">
+              <div style="height: 70%;  background-image: url(image/feijoada.jpg); background-size: cover; background-position: center;"></div>
+              <div style="height: 18%; display: flex;align-items: center;justify-content: center;">
+                Feijoada
+              </div>
+              <div style="height: 12%; background-color: green; display: flex;align-items: center;justify-content: center; color:#fff; padding: 10px; font-size: 12px">
+                PEDIR VIA WHATSAPP
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-6" style="height: 300px;  padding: 15px">
+            <div style="height: 100%;  border: 1px solid #dddddd">
+              <div style="height: 70%;  background-image: url(image/churrascovegano.jfif); background-size: cover; background-position: center;"></div>
+              <div style="height: 18%; display: flex;align-items: center;justify-content: center;">
+                Churrasco Vegano
+              </div>
+              <div style="height: 12%; background-color: green; display: flex;align-items: center;justify-content: center; color:#fff; padding: 10px; font-size: 12px">
+                PEDIR VIA WHATSAPP
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-6" style="height: 300px;  padding: 15px">
+            <div style="height: 100%;  border: 1px solid #dddddd">
+              <div style="height: 70%;  background-image: url(image/tofu.jpg); background-size: cover; background-position: center;"></div>
+              <div style="height: 18%; display: flex;align-items: center;justify-content: center;">
+                Tofú
+              </div>
+              <div style="height: 12%; background-color: green; display: flex;align-items: center;justify-content: center; color:#fff; padding: 10px; font-size: 12px">
+                PEDIR VIA WHATSAPP
+              </div>
+            </div>
+          </div></div>
+        <br>
+        <p><a class="btn btn-secondary container" href="#" style="background-color: green; width: 40%; margin-top: -70px;">Mais opções</a></p>
+        </center>
+      </div>
+      <div class="col-md-5 container">
+        <div class="container" style="height: 450px; width: auto; background-image: url('image/fundo.jpg'); background-position: center; background-size:cover; background-repeat: no-repeat;"> </div>
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h1 class="fw-normal">Sobremesas</h1>
+        <center>
+        <div class="row" style=" width: 100%;">
+          <div class="col-lg-4 col-6" style="height: 300px;  padding: 15px">
+            <div style="height: 100%;  border: 1px solid #dddddd">
+              <div style="height: 70%;  background-image: url(image/brigadeiro.jpg); background-size: cover; background-position: center;"></div>
+              <div style="height: 18%; display: flex;align-items: center;justify-content: center;">
+                Brigadeiro
+              </div>
+              <div style="height: 12%; background-color: green; display: flex;align-items: center;justify-content: center; color:#fff; padding: 10px; font-size: 12px">
+                PEDIR VIA WHATSAPP
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-6" style="height: 300px;  padding: 15px">
+            <div style="height: 100%;  border: 1px solid #dddddd">
+              <div style="height: 70%;  background-image: url(image/pudim.jpg); background-size: cover; background-position: center;"></div>
+              <div style="height: 18%; display: flex;align-items: center;justify-content: center;">
+                Pudim
+              </div>
+              <div style="height: 12%; background-color: green; display: flex;align-items: center;justify-content: center; color:#fff; padding: 10px; font-size: 12px">
+                PEDIR VIA WHATSAPP
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-6" style="height: 300px;  padding: 15px">
+            <div style="height: 100%;  border: 1px solid #dddddd">
+              <div style="height: 70%;  background-image: url(image/pave.jpg); background-size: cover; background-position: center;"></div>
+              <div style="height: 18%; display: flex;align-items: center;justify-content: center;">
+                Pavê
+              </div>
+              <div style="height: 12%; background-color: green; display: flex;align-items: center;justify-content: center; color:#fff; padding: 10px; font-size: 12px">
+                PEDIR VIA WHATSAPP
+              </div>
+            </div>
+          </div></div>
+        <br>
+        <p><a class="btn btn-secondary container" href="#" style="background-color: green; width: 40%; margin-top: -70px;">Mais opções</a></p>
+        </center>
+      </div>
+      <div class="col-md-5 container">
+        <div class="container" style="height: 450px; width: auto; background-image: url('image/sobre.jpg'); background-position: center; background-size:cover; background-repeat: no-repeat;"> </div>
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+    
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+  <div class="container-fluid" style="height: auto; width: 100%; background-color: red; padding: 0; margin-bottom: 30px">
+      <img src="image/missao.png" style="width: 100%">
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Voltar ao Topo</a></p>
+    <p>&copy; 2022 - Desenvolvido pela Your Choise</p>
+  </footer>
+
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+   <script type="text/javascript">(function(n,r,l,d){try{var h=r.head||r.getElementsByTagName("head")[0],s=r.createElement("script");s.setAttribute("type","text/javascript");s.setAttribute("src",l);n.neuroleadId=d;h.appendChild(s);}catch(e){}})(window,document,"https://cdn.leadster.com.br/neurolead/neurolead.min.js", 51841);</script>    
+  </body>
+</html>
