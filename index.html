@@ -23,6 +23,13 @@
 <link href="https://your-choise2022.github.io/bootstrap.min.css" rel="stylesheet">
 
     <style>
+
+      a {
+  text-decoration: none
+  }
+      #logozap:hover{
+          cursor: pointer;
+      }
       .bd-placeholder-img {
         font-size: 1.125rem;
         text-anchor: middle;
@@ -109,7 +116,7 @@
     <!-- Custom styles for this template -->
     <link href="carousel.css" rel="stylesheet">
   </head>
-  <body style="padding-top: 0">
+  <body onload="alert('Olá, ainda estamos em desenvolvimento, novas funções estão sendo planejadas!')" style="padding-top: 0">
     
 
 
@@ -117,9 +124,9 @@
     <div class="container-fluid" style="height:500px;width: 100%; background-color: green;padding: 0">
 
       <div style="padding-right:20px;position: absolute; top: 4%; width: 100%; height: auto;  " id="menu-nav">
-        <a style="margin-left: 20px"> Inicio </a>
-        <a style="margin-left: 20px"> Produtos </a>
-        <a style="margin-left: 20px"> Contato </a>
+        <a href="#inicio_tudo" style="color:black; margin-left: 20px"> Inicio </a>
+        <a href="#produtos_link" style="color:black; margin-left: 20px"> Produtos </a>
+        <a href="#contatos" style="color:black; margin-left: 20px"> Contato </a>
       </div>
 
       <div style="background-color: #a1c0d5;display: block; float: left; display: flex;align-items: center;justify-content: center;" id="caixa-1">
@@ -128,6 +135,7 @@
           
           
       </div>
+      <a name="inicio_tudo"></a>
       <div style="background-color: #fda143; float: left; display: flex;align-items: center;justify-content: center;" id="caixa-2">
         <div id="texto" style="height: auto; width: 90%; padding-left: 20px; text-align: left; font-family: 'Bebas Neue', cursive;">
         <h1>Seja bem-vindo</h1>
@@ -154,37 +162,37 @@
       <div class="col-lg-4">
         <center>
         <div style="height: 140px; width: 140px; background-image: url('https://your-choise2022.github.io/congelada.jpg'); background-position: center; background-size:cover; background-repeat: no-repeat; border-radius: 100%"></div>
-        </center>
-
-        <h2 class="fw-normal" style="margin-top:10px">Comidas Congeladas</h2>
-        <p>Veja nosso cardápio e monte seu prato do seu jeitinho, lembrando que temos opções para <strong>vegetarianos e veganos também.</strong></p>
         
+
+        <h2 class="fw-normal" style="margin-top:10px;">Comidas Congeladas</h2>
+        <p>Veja nosso cardápio e monte seu prato do seu jeitinho, lembrando que temos opções para <strong>vegetarianos e veganos também.</strong></p>
+        </center>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
         <center>
         <div style="height: 140px; width: 140px; background-image: url('https://your-choise2022.github.io/sucos.jpg'); background-position: center; background-size:cover; background-repeat: no-repeat; border-radius: 100%"></div>
-        </center>
+        
 
         <h2 class="fw-normal" style="margin-top:10px">Sucos Naturais</h2>
         <p>Suco natural já pronto e congelado, para pessoas que precisam de praticidade, mas não abrem a mão de uma refeição completa, também em forma de polpa para que só acrescentem a água</p>
-        
+        </center>
       </div><!-- /.col-lg-4 -->
 
       <div class="col-lg-4">
         <center>
         <div style="height: 140px; width: 140px; background-image: url('https://your-choise2022.github.io/sobremesa.jpg'); background-position: center; background-size:cover; background-repeat: no-repeat; border-radius: 100%"></div>
-        </center>
+        
 
         <h2 class="fw-normal" style="margin-top:10px">Sobremesas</h2>
         <p>Ninguém está isento da vontade de um docinho após a refeição né? Por isso também temos sobremesas no mesmo estilo, para quem precisa de praticidade no dia a dia é claro sem deixar de ser gostoso e saudável</p>
-        
+        </center>
       </div><!-- /.col-lg-4 -->
       
     </div><!-- /.row -->
 
 
     <!-- START THE FEATURETTES -->
-
+    <a name="produtos_link"></a>
     <hr class="featurette-divider" style="margin-top:80px; margin-bottom:80px;">
 
     <div class="row featurette">
@@ -200,7 +208,7 @@
                 Suco de Laranja
               </div>
               <a href="https://api.whatsapp.com/send?phone=5511971841827&text=Ol%C3%A1%2C%20vim%20pelo%20site%20do%20Your%20Choise%2C%20e%20gostaria%20de%20pedir%20um%20suco%20de%20Laranja!">
-              <div style="height: 12%; background-color: green; display: flex;align-items: center;justify-content: center; color:#fff; padding: 10px; font-size: 12px">
+              <div style="height: 12%; background-color: green; display: flex;align-items: center;justify-content: center; color:#fff; padding: 10px; font-size: 9px">
                 PEDIR VIA WHATSAPP
               </div>
               </a>
@@ -213,7 +221,7 @@
                 Suco de Morango
               </div>
               <a href="https://api.whatsapp.com/send?phone=5511971841827&text=Ol%C3%A1%2C%20vim%20pelo%20site%20do%20Your%20Choise%2C%20e%20gostaria%20de%20pedir%20um%20suco%20de%20Morango!">
-              <div style="height: 12%; background-color: green; display: flex;align-items: center;justify-content: center; color:#fff; padding: 10px; font-size: 12px">
+              <div style="height: 12%; background-color: green; display: flex;align-items: center;justify-content: center; color:#fff; padding: 10px; font-size: 9px">
                 PEDIR VIA WHATSAPP
               </div>
               </a>
@@ -226,7 +234,7 @@
                 Suco de Manga
               </div>
               <a href="https://api.whatsapp.com/send?phone=5511971841827&text=Ol%C3%A1%2C%20vim%20pelo%20site%20do%20Your%20Choise%2C%20e%20gostaria%20de%20pedir%20um%20suco%20de%20Manga!">
-              <div style="height: 12%; background-color: green; display: flex;align-items: center;justify-content: center; color:#fff; padding: 10px; font-size: 12px">
+              <div style="height: 12%; background-color: green; display: flex;align-items: center;justify-content: center; color:#fff; padding: 10px; font-size: 9px">
                 PEDIR VIA WHATSAPP
               </div>
               </a>
@@ -255,12 +263,15 @@
           <div class="col-lg-4 col-6" style="height: 300px;  padding: 15px">
             <div style="height: 100%;  border: 1px solid #dddddd">
               <div style="height: 70%;  background-image: url(https://your-choise2022.github.io/feijoada.jpg); background-size: cover; background-position: center;"></div>
+
               <div style="height: 18%; display: flex;align-items: center;justify-content: center;">
                 Feijoada
               </div>
-              <div style="height: 12%; background-color: green; display: flex;align-items: center;justify-content: center; color:#fff; padding: 10px; font-size: 12px">
+              <a href="https://api.whatsapp.com/send?phone=5511971841827&text=Ol%C3%A1%2C%20vim%20pelo%20site%20do%20Your%20Choise%2C%20e%20gostaria%20de%20pedir%20um%20prato%20de%20feijoada!">
+              <div style="height: 12%; background-color: green; display: flex;align-items: center;justify-content: center; color:#fff; padding: 10px; font-size: 9px">
                 PEDIR VIA WHATSAPP
               </div>
+              </a>
             </div>
           </div>
           <div class="col-lg-4 col-6" style="height: 300px;  padding: 15px">
@@ -269,20 +280,25 @@
               <div style="height: 18%; display: flex;align-items: center;justify-content: center;">
                 Churrasco Vegano
               </div>
-              <div style="height: 12%; background-color: green; display: flex;align-items: center;justify-content: center; color:#fff; padding: 10px; font-size: 12px">
+              <a href="https://api.whatsapp.com/send?phone=5511971841827&text=Ol%C3%A1%2C%20vim%20pelo%20site%20do%20Your%20Choise%2C%20e%20gostaria%20de%20pedir%20um%20prato%20de%20churrasco%20vegano!">
+              <div style="height: 12%; background-color: green; display: flex;align-items: center;justify-content: center; color:#fff; padding: 10px; font-size: 9px">
                 PEDIR VIA WHATSAPP
               </div>
+              </a>
             </div>
           </div>
           <div class="col-lg-4 col-6" style="height: 300px;  padding: 15px">
             <div style="height: 100%;  border: 1px solid #dddddd">
               <div style="height: 70%;  background-image: url(https://your-choise2022.github.io/tofu.jpg); background-size: cover; background-position: center;"></div>
+
               <div style="height: 18%; display: flex;align-items: center;justify-content: center;">
                 Tofú
               </div>
-              <div style="height: 12%; background-color: green; display: flex;align-items: center;justify-content: center; color:#fff; padding: 10px; font-size: 12px">
+              <a href="https://api.whatsapp.com/send?phone=5511971841827&text=Ol%C3%A1%2C%20vim%20pelo%20site%20do%20Your%20Choise%2C%20e%20gostaria%20de%20pedir%20um%20prato%20de%20tofú!">
+              <div style="height: 12%; background-color: green; display: flex;align-items: center;justify-content: center; color:#fff; padding: 10px; font-size: 9px">
                 PEDIR VIA WHATSAPP
               </div>
+              </a>
             </div>
           </div></div>
         <br>
@@ -308,9 +324,11 @@
               <div style="height: 18%; display: flex;align-items: center;justify-content: center;">
                 Brigadeiro
               </div>
-              <div style="height: 12%; background-color: green; display: flex;align-items: center;justify-content: center; color:#fff; padding: 10px; font-size: 12px">
+              <a href="https://api.whatsapp.com/send?phone=5511971841827&text=Ol%C3%A1%2C%20vim%20pelo%20site%20do%20Your%20Choise%2C%20e%20gostaria%20de%20pedir%20uma%20porção%20de%20brigadeiro!">
+              <div style="height: 12%; background-color: green; display: flex;align-items: center;justify-content: center; color:#fff; padding: 10px; font-size: 9px">
                 PEDIR VIA WHATSAPP
               </div>
+              </a>
             </div>
           </div>
           <div class="col-lg-4 col-6" style="height: 300px;  padding: 15px">
@@ -319,9 +337,11 @@
               <div style="height: 18%; display: flex;align-items: center;justify-content: center;">
                 Pudim
               </div>
-              <div style="height: 12%; background-color: green; display: flex;align-items: center;justify-content: center; color:#fff; padding: 10px; font-size: 12px">
+              <a href="https://api.whatsapp.com/send?phone=5511971841827&text=Ol%C3%A1%2C%20vim%20pelo%20site%20do%20Your%20Choise%2C%20e%20gostaria%20de%20pedir%20uma%20porção%20de%20pudim!">
+              <div style="height: 12%; background-color: green; display: flex;align-items: center;justify-content: center; color:#fff; padding: 10px; font-size: 9px">
                 PEDIR VIA WHATSAPP
               </div>
+              </a>
             </div>
           </div>
           <div class="col-lg-4 col-6" style="height: 300px;  padding: 15px">
@@ -330,9 +350,11 @@
               <div style="height: 18%; display: flex;align-items: center;justify-content: center;">
                 Pavê
               </div>
-              <div style="height: 12%; background-color: green; display: flex;align-items: center;justify-content: center; color:#fff; padding: 10px; font-size: 12px">
+              <a href="https://api.whatsapp.com/send?phone=5511971841827&text=Ol%C3%A1%2C%20vim%20pelo%20site%20do%20Your%20Choise%2C%20e%20gostaria%20de%20pedir%20uma%20porção%20de%20pavê!">
+              <div style="height: 12%; background-color: green; display: flex;align-items: center;justify-content: center; color:#fff; padding: 10px; font-size: 9px">
                 PEDIR VIA WHATSAPP
               </div>
+              </a>
             </div>
           </div></div>
         <br>
@@ -364,6 +386,6 @@
 
     <script src="https://your-choise2022.github.io/bootstrap.bundle.min.js"></script>
 
-   <script type="text/javascript">(function(n,r,l,d){try{var h=r.head||r.getElementsByTagName("head")[0],s=r.createElement("script");s.setAttribute("type","text/javascript");s.setAttribute("src",l);n.neuroleadId=d;h.appendChild(s);}catch(e){}})(window,document,"https://cdn.leadster.com.br/neurolead/neurolead.min.js", 51841);</script>    
+   <div id="logozap" style="height: 60px; width: 60px; border-radius: 100%; background-color: green; position: fixed; bottom: 20px; right: 20px; background-image: url(image/logozap.png); background-size: cover;background-position: center;"></div>  
   </body>
 </html>
